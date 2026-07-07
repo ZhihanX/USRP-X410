@@ -4,6 +4,7 @@
 
 for example, my internet is 192.168.137.1/24
 use:
+
 `2..254 | % { ping -n 1 -w 60 "192.168.137.$_" | Out-Null }
 arp -a -N 192.168.137.1`
 
@@ -13,5 +14,6 @@ and find the ip addr of the USRP then use
 `
 
 init it with 
+
 `
 uhd_usrp_probe --args addr=192.168.137.2`
