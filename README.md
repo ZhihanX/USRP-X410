@@ -29,5 +29,14 @@ and
 
 `gnuradio-companion`
 
+### File copy
+`
+cd ~
+unzip /mnt/c/Users/64500/Downloads/file_name
+cd bpsk_x410_project
+chmod +x run_bpsk_x410.sh
+./run_bpsk_x410.sh
+`
+
 
 
