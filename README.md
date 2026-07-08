@@ -32,8 +32,11 @@ and
 ### File copy
 `
 cd ~
-unzip /mnt/c/Users/64500/Downloads/file_name
+cp -r /mnt/c/Users/64500/Downloads/bpsk_x410_project .
 cd bpsk_x410_project
+ls
+`
+`
 chmod +x run_bpsk_x410.sh
 ./run_bpsk_x410.sh
 `
